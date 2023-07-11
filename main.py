@@ -23,7 +23,8 @@
 # ■ Порахуйте скільки разів розділові знаки зустрічаються в тексті;
 # ■ Порахуйте кількість знаків оклику в тексті.
 
-# 1
+# 1. Користувач вводить рядок з клавіатури. Порахуйте кількість літер, цифр у рядку.
+# Виведіть обидві кількості на екран. (використовувати цикл)
 #
 # try:
 #     while True:
@@ -41,6 +42,9 @@
 # except Exception as random_error:
 #     print(random_error)
 
+# 2. Користувач вводить з клавіатури рядок та символ для пошуку.
+# Порахуйте скільки разів у рядку зустрічається потрібний символ. Отримане число виведіть на екран.
+
 # try:
 #     while True:
 #         digit_count = 0
@@ -57,16 +61,22 @@
 # except Exception as random_error:
 #     print(random_error)
 
-# 2
-try:
-    while True:
-        symbol_count = 0
-        sentence = input("Input any sentence:")
-        symbol = input("Input symbol you looking for:")
-        for letter in sentence:
-            if letter == symbol:
-                symbol_count += 1
-        print(symbol_count)
-        break
-except Exception as random_error:
-    print(random_error)
+
+# 3. Користувач вводить з клавіатури рядок, слово для пошуку, слово для заміни.
+# Зробіть у рядку заміну одного слова на інше. Отриманий рядок на екрані.
+
+# try:
+#     while True:
+#         sentence = input("Input any sentence:")
+#         word_to_find = input("Input word you want to find:")
+#         word_to_change = input("Input word you change on:")
+#
+#         if sentence.find(word_to_find):
+#             sentence = sentence.replace(word_to_find, word_to_change)
+#             print(sentence)
+#             break
+#         else:
+#             print("There is no such a word in sentence")
+#             break
+# except Exception as random_error:
+#     print(random_error)
