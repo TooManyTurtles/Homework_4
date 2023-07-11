@@ -45,18 +45,16 @@
 # 2. Користувач вводить з клавіатури рядок та символ для пошуку.
 # Порахуйте скільки разів у рядку зустрічається потрібний символ. Отримане число виведіть на екран.
 
+# 2
 # try:
 #     while True:
-#         digit_count = 0
-#         alpha_count = 0
-#         sentence = input("Input any sentence: ")
+#         symbol_count = 0
+#         sentence = input("Input any sentence:")
+#         symbol = input("Input symbol you looking for:")
 #         for letter in sentence:
-#             if letter.isdigit():
-#                 digit_count += 1
-#             elif letter.isalpha():
-#                 alpha_count += 1
-#         print("The number digit symbols is =", digit_count)
-#         print("The number of alphabetical symbols is =", alpha_count)
+#             if letter == symbol:
+#                 symbol_count += 1
+#         print("Symbol count is:", symbol_count)
 #         break
 # except Exception as random_error:
 #     print(random_error)
@@ -93,19 +91,19 @@
 # - У восьмому рядку виведіть усі символи рядка через один у зворотному порядку, починаючи з останнього.
 # - У дев'ятому рядку виведіть довжину цього рядка.
 
-try:
-    sentence = input("Input any sentence:")
-    print(sentence[2:3:])
-    print(sentence[-2::2])
-    print(sentence[:5:])
-    print(sentence[:-2:])
-    print(sentence[::2])
-    print(sentence[1::2])
-    print(sentence[::-1])
-    print(sentence[::-2])
-    print(len(sentence))
-
-except KeyboardInterrupt as e:
-    print(e)
-except Exception as e:
-    print(e)
+# try:
+#     sentence = input("Input any sentence:")
+#     print(sentence[2:3:])
+#     print(sentence[-2::2])
+#     print(sentence[:5:])
+#     print(sentence[:-2:])
+#     print(sentence[::2])
+#     print(sentence[1::2])
+#     print(sentence[::-1])
+#     print(sentence[::-2])
+#     print(len(sentence))
+#
+# except KeyboardInterrupt as e:
+#     print(e)
+# except Exception as e:
+#     print(e)
