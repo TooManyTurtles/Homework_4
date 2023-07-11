@@ -41,3 +41,32 @@
 # except Exception as random_error:
 #     print(random_error)
 
+# try:
+#     while True:
+#         digit_count = 0
+#         alpha_count = 0
+#         sentence = input("Input any sentence: ")
+#         for letter in sentence:
+#             if letter.isdigit():
+#                 digit_count += 1
+#             elif letter.isalpha():
+#                 alpha_count += 1
+#         print("The number digit symbols is =", digit_count)
+#         print("The number of alphabetical symbols is =", alpha_count)
+#         break
+# except Exception as random_error:
+#     print(random_error)
+
+# 2
+try:
+    while True:
+        symbol_count = 0
+        sentence = input("Input any sentence:")
+        symbol = input("Input symbol you looking for:")
+        for letter in sentence:
+            if letter == symbol:
+                symbol_count += 1
+        print(symbol_count)
+        break
+except Exception as random_error:
+    print(random_error)
